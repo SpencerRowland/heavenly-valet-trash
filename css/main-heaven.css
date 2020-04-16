@@ -1,6 +1,6 @@
 /************ Begin Font Import*************************************************************************/
 
-@import url(https://web.archive.org/web/20180825102909cs_/https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:400,500,700|Lato:400,300,400italic,700italic,700|Bangers|Ultra|Karla:400,700|Black+Ops+One|Bigelow+Rules|Faster+One|Trade+Winds|Oswald|Just+Another+Hand|Yellowtail|Montserrat:300,400,600,800);
+@import url(https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:400,500,700|Lato:400,300,400italic,700italic,700|Bangers|Ultra|Karla:400,700|Black+Ops+One|Bigelow+Rules|Faster+One|Trade+Winds|Oswald|Just+Another+Hand|Yellowtail|Montserrat:300,400,600,800);
 /*
 font usage: font-family: 'Roboto', sans-serif;
 font usage: font-family: 'Lato', sans-serif;
@@ -19,7 +19,7 @@ font-family: 'Yellowtail', cursive;
 /*
 @font-face {
 font-family: 'digital_dream_narrowregular'; 
-src: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/fonts/DIGITALDREAMNARROW-webfont.ttf);
+src: url(/css/fonts/DIGITALDREAMNARROW-webfont.ttf);
 font-weight: normal;
 }
 */
@@ -113,7 +113,7 @@ h3 {
 /** Banner Begin **/
 
 .banner {
-    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/clouds-cover-1800-500.jpg);
+    background-image: url(/css/backgrounds/clouds-cover-1800-500.jpg);
     background-attachment: scroll;
     background-position: center center;
     background-repeat: no-repeat;
@@ -731,7 +731,7 @@ body {
 .menu-header {
     border-bottom: 1px solid #2a2d2f;
     padding: 10px 0 10px 43px;
-    background: url('/web/20180825102909im_/http://heavenlyvalettrash.com/img/favicons/apple-touch-icon-57x57.png') no-repeat 10px 10px;
+    background: url('/img/favicons/apple-touch-icon-57x57.png') no-repeat 10px 10px;
     background-size: 20px;
 }
 
