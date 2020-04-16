@@ -537,7 +537,13 @@ h3 {
 
 /************ End Sub Footer **********/
 
+body#contact-lp {
+    display: flex;
+}
 
+body#contact-lp main {
+    width: 100%;
+}
 
 
 
