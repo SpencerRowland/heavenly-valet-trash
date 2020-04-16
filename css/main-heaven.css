@@ -1,0 +1,4025 @@
+/************ Begin Font Import*************************************************************************/
+
+@import url(https://web.archive.org/web/20180825102909cs_/https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:400,500,700|Lato:400,300,400italic,700italic,700|Bangers|Ultra|Karla:400,700|Black+Ops+One|Bigelow+Rules|Faster+One|Trade+Winds|Oswald|Just+Another+Hand|Yellowtail|Montserrat:300,400,600,800);
+/*
+font usage: font-family: 'Roboto', sans-serif;
+font usage: font-family: 'Lato', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Black Ops One', cursive;
+font-family: 'Alex Brush', cursive;
+font-family: 'Bigelow Rules', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Trade Winds', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Yellowtail', cursive;
+*/
+/*
+@font-face {
+font-family: 'digital_dream_narrowregular'; 
+src: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/fonts/DIGITALDREAMNARROW-webfont.ttf);
+font-weight: normal;
+}
+*/
+/************ End Font Import*************************************************************************/
+
+.contact-lp-bg-color {
+    background: #e1f4fb;
+}
+
+.panel-contact-lp {
+    box-shadow: none !important;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+h3 {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+.blue-text {
+    color: #4477bd;
+}
+
+/** Header Begin **/
+
+.header-logo {
+    float: left;
+    margin-top: 11px;
+}
+
+.header-logo a img {
+    max-width: 150px;
+}
+
+.header-menu {
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .header-menu {
+        display: none;
+    }
+    
+    .header-logo {
+        float: none;
+        margin-top: 11px;
+    }
+    
+    .header-logo {
+        max-width: 150px;
+        margin: 11px auto 0 auto;
+        text-align: center;
+    }
+}
+
+.header-contact-button {
+    margin: 0px auto 0px auto;
+    padding-top: 20px;
+    display: block;
+    max-width: 300px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.header-contact-button a {    
+    color: #4477bd;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #4477bd;
+    border-radius: 4px;
+    padding: 4px !important;
+    width: 130px;
+    font-weight: 800;
+}
+
+.header-contact-button a:hover {
+    background-color: rgba(160, 180, 206, 0.5) !important;
+    border: 2px solid #000;
+}
+
+/** Header End **/
+
+/** Banner Begin **/
+
+.banner {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/clouds-cover-1800-500.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width: 705px) {
+    .banner {
+        height: auto !important;
+        background-size: auto 100%;
+    }
+}
+
+.banner-margin {
+    margin-top: 67px;
+}
+
+.banner-text-1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 38px;
+    color: #000;
+    padding-top: 150px;
+    font-weight: 800;
+    line-height: 1.21;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .banner-text-1 {
+        font-size: 28px;
+        padding-top: 70px;
+    }
+    .banner-text-2 {
+        font-size: 20px !important;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 540px) {
+    .banner-text-1 {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 415px) {
+    .banner-text-1 {
+        font-size: 23px;
+    }
+    .banner-text-2 {
+        font-size: 16px !important;
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+.banner-text-2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 450px;
+    margin: 0 auto;
+    line-height: 25.2px;
+}
+
+
+
+
+
+
+
+
+
+
+.button-group {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.button-group a {
+    padding: 10px 0;    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    width: 200px;
+    border: 2px solid #4477bd;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;  
+    margin: 0 auto;
+    display: block;
+}
+
+.button-right {
+    color: #fff;
+    background-color: #4477bd;
+}
+
+.button-right:hover {
+    color: #fff;
+    background-color: rgba(68, 119, 189, 0.64);
+}
+
+/** Banner End **/
+
+.container-gradient {
+    background: linear-gradient(to bottom, #e1f4fb, #fff, #c6d6eb); 
+}
+
+.how-header {
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.how-sub-title {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 25.2px;
+    padding-bottom: 30px;
+}
+
+
+.how-icons {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.benefits {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.benefit-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.benefit-left {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (max-width: 991px) {
+    .benefit-left {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .benefit-desc-container {
+        padding: 30px !important;
+    }
+    .benefits h3 {
+        font-size: 17px !important;
+    }
+    .benefit-list {
+        padding-left: 18px !important;
+        font-size: 13px;
+    }
+}
+
+.benefit-right {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.benefit-desc-container {
+    padding: 40px;
+    margin: 20px auto 0 auto;
+    box-shadow: 0 10px 30px 0 rgba(25, 79, 155, 0.37);
+    border-radius: 4px;
+    background: #fff;
+    max-width: 400px;
+}
+
+.benefit-desc {
+    max-width: 300px;
+    margin: 0 auto;       
+}
+
+.benefit-desc-left {
+    padding-left: 0;
+}
+
+.benefit-desc-right {
+    padding-right: 0;
+}
+
+.how-it-works {
+    padding: 50px 0;
+}
+
+.how-steps {
+    padding-top: 30px;
+}
+
+.how-steps p {
+    font-family: 'Montserrat', sans-serif;
+    color
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25.2px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.benefits h3 {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000000;    
+}
+
+.benefit-list {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #000;
+    line-height: 25.2px;
+    padding-left: 30px;
+}
+
+.tweet-row h2 {
+    padding-top: 160px;
+}
+
+
+
+.tweets {
+    padding-top: 20px;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.tweet-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 991px) {
+    .tweet-container {
+        padding-bottom: 30px;
+    }
+}
+
+#twitter-widget-0 {
+    box-shadow: 0 10px 30px 0 rgba(25, 79, 155, 0.37);
+    margin: 0 auto;
+}
+
+
+#twitter-widget-1 {
+    box-shadow: 0 10px 30px 0 rgba(25, 79, 155, 0.37);
+    margin: 0 auto;
+}
+
+.dateline {
+    visibility: hidden !important;
+}
+
+
+.contact-us {
+    padding-top: 50px;
+}
+
+.contact-us h2 {
+    padding-top: 80px;
+}
+
+.contact-us p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25.2px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.form-group {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+    margin-top: 15px;
+}
+
+.form-fields {
+    padding-top: 15px;
+}
+
+.form-control {
+    background: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #4477bd;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.28), 0 0 8px #337ab7;
+}
+
+.send-message {
+    width: 185.75px;
+    height: 55px !important;
+    line-height: 55px !important;
+    background-color: #4477bd !important;
+    list-style: none;
+    padding: 0 17px !important;
+    font-size: 16px;
+    margin-top: 9px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #4477bd;
+    border-radius: 4px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.send-message:hover {
+    background-color: rgba(68, 119, 189, 0.64) !important;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.heavenly-form {
+    width: 90% !important;
+}
+
+.heavenly-contact-form {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.heavenly-form-control {
+    background: #fff !important;
+    color: #505050 !important;
+    border: 1px solid #505050;
+    box-shadow: 0 2px 2px 0 rgba(25, 79, 155, 0.37);
+}
+
+.heavenly-contact-us {
+    margin: 0px auto 0px auto;
+    max-width: 1200px;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    color: #000;
+}
+
+.heavenly-contact-us h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 15px 0 15px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.heavenly-contact-us p {
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    padding: 0 0px 0 0px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+
+/************ Begin Sub Footer **********/
+
+#sub-footer {
+    background-color: #4477bd;
+    display: block;
+    border-top: 1px solid #fff;
+}
+
+.footer-copyright {
+    color: #fff !important;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.sub-footer-contents {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/************ End Sub Footer **********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Universal Styling Begin ***/
+
+.page-banner {
+    width: 100%;
+    background-color: #ed1c24;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #666666;
+    margin-top: 107px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 890px) {
+    .page-banner {
+        margin-top: 40px;
+    }
+}
+
+.page-banner h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.page-banner h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.experience-cover {
+    margin-top: 107px;
+}
+
+@media (max-width: 890px) {
+    .experience-cover {
+        margin-top: 40px;
+    }
+}
+
+.experience-page-book-button {
+    margin: 0px auto 0px auto;
+    padding: 30px 30px 30px 30px;
+    display: block;
+    max-width: 300px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.experience-page-book-button a {
+    display: inline-block;
+    width: 75%;
+    color: #fff;
+    text-shadow: -2px 2px #821216;
+    font-family: 'Oswald';
+    background-color: #ed1c24;
+    background-image: linear-gradient(180deg, #e6676c, #ff000a);
+    box-shadow: inset 0 0 0 1px #821216;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.experience-page-book-button a:hover {
+    box-shadow: inset 0 0 0 1px #882428,0 5px 15px #4e1d1f;
+}
+
+
+/*** Universal Styling Begin ***/
+
+/*** Button Styling Begin ***/
+
+.book-now-button a {
+    color: #fff;
+    text-shadow: -2px 2px #821216;
+    font-family: 'Oswald';
+    background-color: #ed1c24;
+    background-image: linear-gradient(180deg, #e6676c, #ff000a);
+    box-shadow: inset 0 0 0 1px #821216;
+    border: none;
+    border-radius: 4px;
+}
+
+.book-now-button a:hover {
+    box-shadow: inset 0 0 0 1px #882428,0 5px 15px #4e1d1f;
+    color: #fff;
+}
+
+
+/*** Button Styling End ***/
+
+/************ Menu Styling Begin *****************************************/
+
+.menu a {
+    color: #fff;
+}
+
+
+/** Mobile Slide Menu Code from: https://github.com/mango/slideout - Begin **/
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.slideout-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 256px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+}
+
+.slideout-panel {
+    position:relative;
+    z-index: 1;
+    /**will-change: transform;**/
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+    overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+    display: block;
+}
+    
+/** Mobile Slide Menu Code from: https://github.com/mango/slideout - End **/
+
+
+#menu {
+    background-color: #fff;
+}
+
+#menu a {
+    color: #000;
+}
+
+.menu-header {
+    border-bottom: 1px solid #2a2d2f;
+    padding: 10px 0 10px 43px;
+    background: url('/web/20180825102909im_/http://heavenlyvalettrash.com/img/favicons/apple-touch-icon-57x57.png') no-repeat 10px 10px;
+    background-size: 20px;
+}
+
+.menu-header-title {
+    font-weight: bold;
+}
+
+.menu-section {
+    
+}
+
+.menu-section-title {
+    font-size: 10px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: #4b4f56;
+    padding: 5px 0px 5px 10px;
+    background-color: #f6f7f9;
+    border-bottom: 1px solid rgb(221, 223, 226);
+    margin: 0;
+}
+
+.menu-section-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu-section-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(221, 223, 226);
+}
+
+.menu-section-list-item i {
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/** Menu Padding Begin **/
+
+.menu-padding-18 i {
+    padding-right: 18px;
+}
+
+.menu-padding-19 i {
+    padding-right: 19px;
+}
+
+.menu-padding-20 i {
+    padding-right: 20px;
+}
+
+.menu-padding-21 i {
+    padding-right: 21px;
+}
+
+.menu-padding-22 i {
+    padding-right: 22px;
+}
+
+.menu-padding-23 i {
+    padding-right: 23px;
+}
+
+.menu-padding-24 i {
+    padding-right: 24px;
+}
+
+.menu-padding-25 i {
+    padding-right: 25px;
+}
+
+/** Menu Padding End **/
+
+#panel {
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+}
+
+.panel-header {
+    height: 40px;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.75);
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/maze-pattern-white.png);
+    background-repeat: repeat;
+    border-top: 1px solid #ed1c24;
+}
+
+.mobile-header-button {
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.mobile-header-button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #ed1c24;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: 'Oswald';
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.toggle-button {
+    margin-left: 0px;
+    margin-top: 1px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+
+
+/************ Menu Styling End *****************************************/
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .escape-in-time h2 {
+        font-size: 23px;
+    }
+
+    .describe-what h2 {
+        font-size: 23px;
+    }
+
+    .describe-who h2 {
+        font-size: 23px !important;
+        letter-spacing: 0px !important;
+    }
+
+    
+
+    .scenario-content {
+        padding-top: 30px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .coming-soon-c-block, .coming-soon-inheritance, .claim-your-inheritance, .coming-soon-vaccine, .search-for-the-cure {
+        margin-bottom: 0px !important;
+    }
+
+    .scenarios {
+        height: auto !important;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.margin-adjust {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.bookmark { padding-top: 110px; }
+
+.text-link {
+    color: #03c;
+    text-decoration: underline;
+}
+
+.text-link:hover {
+    color: #ed1c24;
+    text-decoration: underline;
+}
+
+/************ On/Off Switches *************************************************/
+
+/* Comment code out below to display Book Now buttons */
+/*
+.menu-book-now {
+    display: none !important;
+}
+
+.ghost-collapsed-book-now {
+    display: none !important;
+}
+*/
+/* Comment code out below to show Watch Video button */
+/*
+.watch-video {
+    display: none !important;
+}
+*/
+/* Comment code out below to activate Escape Experience pages */
+
+/* C-BLOCK */
+
+/* The Inheritance */
+
+/*
+.claim-your-inheritance {
+    display: none !important;
+}
+*/
+
+/* Vaccine */
+
+.search-for-the-cure {
+    display: none !important;
+}
+/************************************/
+
+.coming-soon-button {
+    background-color: #000;
+    color: #ed1c24;
+    border: 2px solid #ed1c24;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+}
+
+.coming-soon-button:hover {
+    color: #ed1c24;
+}
+
+.coming-soon-button:focus {
+    color: #ed1c24;
+    text-decoration: none;
+}
+
+
+
+
+
+/************ On/Off Switches *************************************************/
+
+
+/************ Begin Navigation Bar *************************************************/
+
+/*** Desktop Header Begin ***/
+
+
+@media (min-width: 891px) {
+    .logo {
+        margin-top: 140px !important;
+    }
+}
+
+.top-bar {
+    background-color: #ed1c24;
+    border-bottom: 1px solid #000;
+}
+
+.top-bar-left {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    width: 33.33%;
+    line-height: 20px;
+    float: left;
+    padding: 10px 0;
+}
+
+.top-bar-middle {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    width: 33.33%;
+    line-height: 20px;
+    float: left;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.top-bar-right {
+    float: right;
+    padding-top: 10px;
+}
+
+.top-bar-right a {
+    color: #ed1c24;
+    //text-shadow: -2px 2px #821216;
+    font-family: 'Oswald';
+    background-color: #fff;
+    background-image: linear-gradient(180deg, #fff, #e8e8e8);
+    box-shadow: inset 0 0 0 0px #821216;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 10px !important;
+    width: 100px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.top-bar-right a:hover {
+    box-shadow: inset 0 0 0 0px #882428,0 5px 15px #4e1d1f;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.header-main {
+    height: 67px;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.75);
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/maze-pattern-white.png);
+    background-repeat: repeat;
+}
+
+
+
+.menu-item {
+    line-height: 67px !important;
+    color: #000 !important;
+    padding: 0 17px !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu-item:hover, .menu-item:focus {
+    color: #ed1c24 !important;
+    background-color: transparent !important;
+}
+
+.header-social {
+    /*float: right !important;*/
+    margin-left: 15px;
+    margin-right: 32px;
+}
+
+.header-social a {
+    height: 67px !important;
+    line-height: 67px !important;
+    color: #000 !important;
+    padding: 0 9px !important;
+    display: inline-block !important;
+}
+
+.header-social a:hover, .header-social a:focus {
+    color: #ed1c24 !important;
+    background-color: transparent !important;
+}
+
+
+
+
+/*** Desktop Header End ***/
+
+/*** Mobile Header Begin ***/
+
+@media (min-width: 891px) {
+    .panel-header, #menu {
+        display: none;
+    }
+}
+
+
+
+/*** Mobile Header End ***/
+
+
+/* Begin - Change navbar breakpoint from default to 890 */
+
+@media (max-width: 890px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+
+/* End - Change navbar breakpoint from default to 890 */
+
+.container-fluid {
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+
+.navbar-default {
+    background-color: #000000;
+    border-top: 1px solid #ed1c24;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.navbar {
+    height: 67px;
+    border-radius: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-collapse {
+    border-top: 0px solid transparent;
+}
+
+
+.navbar-brand {
+    margin: 10px 0px 10px 0px !important;
+    padding: 0px;
+}
+
+
+
+@media (min-width: 890px) {
+  .collapsed-book-now {
+    display: none !important;
+  }
+}
+
+.ghost-menu-book-now {
+    width: 100px;
+    height: 40px !important;
+    line-height: 40px !important;
+    color: #000000 !important;
+    background-color: #ed1c24 !important;
+    font-weight: normal !important;
+    display: inline-block;
+    border: 2px solid #666666;
+    list-style: none;
+    padding: 0 17px !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 9px;
+    text-align: center;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(237,28,36,.6);
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.ghost-menu-book-now:hover {
+    color: #ed1c24 !important;
+    background-color: #000000 !important;
+    border: 2px solid #ed1c24;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+
+
+
+/************ End Navigation Bar **********************************************************/
+
+
+/************ Begin Countdown Clock **********************************************************/
+
+@media (min-width: 560px) {
+    .countdown {
+        font-size: 60px;
+        margin: 40px auto;
+        text-align: center;
+        background: #0e0e0e;
+        display: table !important;
+        padding-left: 25px;
+        padding-right: 25px;
+        color: #ed1c24;
+        border-radius: 7px;
+        font-family:'MTI Digital W00';
+        padding-bottom: 30px !important;
+        border: 3px solid #000000;
+    }
+    
+    
+    .countdown.count-sm {
+        display: none !important;
+    }
+}
+
+.countdown {
+    display: none;
+}
+
+.countdown.count-sm {
+    font-size: 60px;
+    margin: 40px auto;
+    text-align: center;
+    background: #0e0e0e;
+    display: table;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #ed1c24;
+    border-radius: 7px;
+    font-family: 'MTI Digital W00';
+    padding-bottom: 25px !important;
+    border: 3px solid #000000;
+}
+}
+
+span.ce-minutes-digit {
+    width: 31px;
+    display: inline-block;
+}
+
+span.ce-seconds-digit {
+    width: 31px;
+    display: inline-block;
+}
+
+span.ce-mseconds-digit {
+    width: 31px;
+    display: inline-block;
+}
+
+/************ End Countdown Clock **********************************************************/
+
+
+
+.escape-in-time {
+    margin: 40px auto 0px auto;
+    padding: 0px 30px 0px 30px;
+    display: block;
+    max-width: 800px;
+    font-family: 'Oswald', sans-serif;
+    color: #ed1c24;
+}
+
+.escape-in-time h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contact-landing-page h2 {
+    padding-top: 40px;
+}
+
+.contact-landing-page h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.top-line {
+    padding-bottom: 0px !important;
+}
+
+
+
+
+
+
+.ghost-menu-book-now {
+    width: 100px;
+    height: 40px !important;
+    line-height: 40px !important;
+    color: #000000 !important;
+    background-color: #ed1c24 !important;
+    font-weight: normal !important;
+}
+
+
+
+
+
+
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #000 !important;
+    background: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/escape-experience-maze-repeat-gradient-compressor.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: auto auto;
+    margin-bottom: 0px !important;
+}
+
+.logo {
+    margin-top: 70px;
+}
+
+.logo img {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container-main {
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+    //background: rgba(0, 0, 0, 0.60);
+    //margin: 0 auto;
+    //display: table;
+    //padding: 10px;
+    //margin-top: 0px;
+    //margin-bottom: 10px;
+}
+
+p.coming-soon {
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Bangers', cursive !important;
+    margin: 0 auto;
+    //padding: 0px;
+    margin-top: 40px;
+    //margin-bottom: 0px;
+    color: #fff !important;
+    font-size: 100px;
+    line-height: 99px;
+}
+
+p.to {
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    font-family: 'Ultra', serif !important;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+p.king {
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    font-family: 'Bangers', cursive !important;
+    margin: 0 auto;
+    //padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 75px;
+}
+
+
+
+
+
+.describe-what {
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+
+.describe-what-container {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.mobile-section-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 23px;
+    line-height: 30px;
+    
+}
+
+/************ What is an Escape Experience?***************/
+
+.promo-video {
+    margin: 0 auto;
+    padding: 40px 0px 40px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.34), rgba(255, 0, 0, 0)), url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/brickwall_bg-compressor.jpg);
+    color: #fff;
+    background-size: cover;
+}
+
+.promo-video-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1286px) {
+    .mobile-section-header {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 994px) and (max-width: 1285px) {
+    .mobile-section-header {
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 542px) and (max-width: 993px) {
+    .mobile-section-header {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 492px) and (max-width: 541px) {
+    .mobile-section-header {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 491px) {
+    .mobile-section-header {
+        font-size: 24px;
+    }
+    
+    .promo-video-one-line, .describe-what-one-line {
+        display: none;
+    }
+}
+
+@media (min-width: 492px) {
+    .promo-video-two-lines, .describe-what-two-lines {
+        display: none;
+    }
+    
+    .escape-rooms-header {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 670px) {
+    .describe-who-one-line {
+        display: none;
+    }
+}
+
+@media (min-width: 671px) {
+    .describe-who-two-lines {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1375px) {
+    .promo-video-container {
+        padding: 0px 70px;
+    }
+    
+    .describe-what {
+        padding-left: 70px;
+        padding-right: 70px
+    }
+}
+
+@media (min-width: 1275px) and (max-width: 1374px) {
+    .promo-video-container {
+        padding: 0px 60px;
+    }
+    
+    .describe-what {
+        padding-left: 60px;
+        padding-right: 60px
+    }
+}
+
+@media (min-width: 1175px) and (max-width: 1274px) {
+    .promo-video-container {
+        padding: 0px 50px;
+    }
+    
+    .describe-what {
+        padding-left: 50px;
+        padding-right: 50px
+    }
+}
+
+@media (min-width: 1075px) and (max-width: 1174px) {
+    .promo-video-container {
+        padding: 0px 40px;
+    }
+    
+    .describe-what {
+        padding-left: 40px;
+        padding-right: 40px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1074px) {
+    .promo-video-container {
+        padding: 0px 30px;
+    }
+    
+    .describe-what {
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+
+
+
+
+
+
+/***** MODAL PROPERTIES *****/
+ .modal-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background:transparent;
+    border:none;
+    outline:none;
+}
+.modal-content iframe {
+    border:none;
+    padding:0;
+    margin:0;
+}
+.close {
+    font-size: 80px;
+    margin:-20px 0 0 0;
+}
+/***** MEDIA QUERIES *****/
+ @media only screen and (max-width: 641px) {
+    /***** MODAL PROPERTIES *****/
+    .modal-body {
+        height:100px;
+        padding:0;
+        margin: 0;
+    }
+    .modal-content {
+        padding:0;
+        margin: 0;
+    }
+    .modal-dialog {
+        position: relative;
+        width: auto;
+        margin: 15px;
+    }
+    .close {
+        margin:-12px 0 0 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /***** MODAL PROPERTIES *****/
+    .close {
+        font-size: 80px;
+        margin: 90px -43px -20px 100px;
+    }
+
+    .modal-dialog {
+        width: 900px;
+	margin-top: 90px;
+    }
+}
+
+.modal-open {
+    padding-right: 0;
+}
+
+.modal {
+    padding-right: 0 !important;
+   
+}
+
+.embed-responsive {
+    width: 100%;
+    border: 5px solid #666666;
+}
+
+/************ Begin For Who Section **********/
+
+#who-should-play {
+    background-color: #ebebeb;
+}
+
+@media (min-width: 767px) {
+    #who-should-play {
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 767px) {
+  .who-should-play-desktop {
+    display: none !important;
+  }
+}
+
+.describe-who {
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+}
+
+.describe-who h2 {
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    border-bottom: 1px dashed #333333;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+
+.row.border-it {
+    margin-bottom: 40px;
+}
+
+.who {
+    margin-top: 10px;
+}
+
+.for-who-image-area {
+    position: relative;
+}
+
+.for-who-image-area img {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.for-who-titles {
+    position: relative;
+}
+
+h3.for-who {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+p.for-who-describe {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Karla', sans-serif !important;
+    color: #000000 !important;
+}
+
+/************ End For Who Section **********/
+
+/************ Begin For Who Carousel **********/
+
+@media (min-width: 768px) {
+  .who-should-play-mobile {
+    display: none !important;
+  }
+}
+
+
+.item {
+    background-color: #ebebeb;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.who-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.who-box img {
+    width: 100%;
+    padding: 4px 4px 0px 4px;
+}
+
+.who-image-bottom {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px 4px 0 4px;
+}
+
+.who-image-bottom h3 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Oswald;
+    font-size: 14px;
+    padding: 6px 0 6px 0;
+    background-color: #ebebeb;
+    color: #333;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.carousel-caption {
+    position: relative;
+    right: 0%;
+    bottom: 0px;
+    left: 0%;
+    z-index: 0;
+    padding-top: 0px;
+    padding-bottom: 0;
+    color: #fff;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-shadow: 0 0px 0px rgba(0,0,0,.6);
+}
+
+.carousel-control:hover {
+    color: #ed1c24;
+}
+
+.carousel-control:focus {
+    color: #ed1c24;
+}
+
+.carousel-control {
+    color: #000;
+    opacity: 1;
+}
+
+.glyphicon {
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.glyphicon-chevron-right {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 7px;
+}
+
+.glyphicon-chevron-left {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 5px;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-indicators {
+    bottom: -4px;
+}
+
+.carousel-indicators .active {
+    background-color: #ed1c24;
+}
+
+.carousel-indicators li {
+    border: 1px solid #000;
+    background-color: #eeeeee;
+}
+
+/************ End For Who Carousel **********/
+
+
+/************ Begin Escape Experiences **********/
+
+#escape-experiences {
+    background-color: #000;
+    padding-bottom: 20px;
+}
+
+#escape-experiences .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+.escape-rooms-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    padding: 40px 0 40px 0;
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.escape-room-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/*** Media Query for below ***/
+
+@media (min-width: 769px) {
+    .escape-room-container {
+        float: left;
+        position: relative;
+        //width: 20%;
+        width: 33.333333%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+/*** Media Query for above ***/
+
+.escape-room-box {
+    background-color: #fff;
+}
+
+.escape-room-image-top {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.escape-room-image-top h3 {
+    background-color: #ebebeb;
+    text-align: center;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px 3px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.escape-room-image-bottom {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0px 4px 0 4px;
+}
+
+.escape-room-image-bottom a {
+    color: #fff;
+    background-color: #ed1c24;
+    background-image: linear-gradient(180deg, #e6676c, #ff000a);
+    font-family: 'Oswald';
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: -2px 2px #821216;
+    box-shadow: inset 0 0 0 1px #821216;
+    border: none;
+    border-radius: 0 0 4px 4px;
+    padding: 6px 0 6px 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+.coming-soon-bottom-button {
+    background-color: #ebebeb !important;
+    background-image: linear-gradient(180deg, #ebebeb, #a5a5a5) !important;
+    text-shadow: -2px 2px #5a5454 !important;
+    box-shadow: inset 0 0 0 1px #5a5454 !important;
+}
+
+.escape-room-image-bottom a:hover {
+    box-shadow: inset 0 0 0 1px #882428,0 5px 15px #4e1d1f;
+}
+
+
+.escape-room-image-text {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding: 6px 0 6px 0;
+}
+
+.escape-room-image img {
+    width: 100%;
+    padding: 4px 4px 0px 4px;
+}
+
+.sub-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+    
+.learn-more-button {
+    margin: 0px auto 0px auto;
+    padding: 0px 30px 20px 30px;
+    display: block;
+    max-width: 300px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.learn-more-button a {
+    display: inline-block;
+    width: 75%;
+    color: #fff;
+    text-shadow: -2px 2px #821216;
+    font-family: 'Oswald';
+    background-color: #ed1c24;
+    background-image: linear-gradient(180deg, #e6676c, #ff000a);
+    box-shadow: inset 0 0 0 1px #821216;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.learn-more-button a:hover {
+    box-shadow: inset 0 0 0 1px #882428,0 5px 15px #4e1d1f;
+}
+
+.book-now-row {
+    background-color: #e8e8e8;
+    border-top: 3px solid #ed1c24;
+    border-bottom: 1px solid #000;
+}
+
+.book-now-row-button {
+    margin: 0px auto 0px auto;
+    padding: 20px 30px 20px 30px;
+    display: block;
+    max-width: 300px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.book-now-row-button a {
+    display: inline-block;
+    width: 75%;
+    padding: 4px;
+    color: #fff;
+    background-color: #ed1c24;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.escape-room-box-bottom {
+    background-color: #ebebeb;
+    overflow: hidden;
+    border-top: 1px solid #bbbbbb;
+}
+
+
+.left-half, .right-half {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px 3px;
+}
+
+.left-half span, .right-half span {
+    color: #ed1c24;
+}
+
+/*** Media Queries - Escape Experiences Section ***/
+
+@media (max-width: 768px) {
+    .sub-title {
+        font-size: 18px;
+    }
+    
+    .escape-room-image-top h3 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1307px) {
+    .sub-title {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1242px) and (max-width: 1306px) {
+    .sub-title {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1178px) and (max-width: 1241px) {
+    .sub-title {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1114px) and (max-width: 1177px) {
+    .sub-title {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1113px) {
+    .sub-title {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1236px) and (max-width: 1319px) {
+    .escape-room-image-top h3 {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1153px) and (max-width: 1235px) {
+    .escape-room-image-top h3 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1069px) and (max-width: 1152px) {
+    .escape-room-image-top h3 {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1068px) {
+    .escape-room-image-top h3 {
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width: 1149px) and (max-width: 1223px) {
+    .left-half, .right-half {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1074px) and (max-width: 1148px) {
+    .left-half, .right-half {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1073px) {
+    .left-half, .right-half {
+        font-size: 11px;
+    }
+}
+
+
+
+
+.the-inheritance-bg-layer {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/inheritance_cover-compressor.png);
+}
+
+.vaccine-bg-layer {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/vaccine_cover-compressor.png);
+}
+
+
+
+
+/*
+
+#c-block h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+
+
+#the-inheritance h3 {
+    line-height: 31.2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+}
+
+#vaccine h3 {
+    line-height: 31.2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+}
+
+*/
+
+/************ End Escape Experiences **********/
+
+
+
+
+/************ Begin Home Page Map **********/
+
+.home-page-map {
+    margin: 0px auto 0px auto;
+    width: 100%;
+    display: block;
+    padding: 0px 15px 30px 15px;
+    color: #fff;
+    background-color: #000;
+}
+
+.home-page-map h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 15px 0 15px;
+    margin-bottom: 20px;
+}
+
+.home-page-map p {
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    padding: 0 15px 0 15px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.home-page-map .adr {
+    margin: 0px auto 0px auto;
+    width: 100%;
+    padding: 20px 15px 0 15px;
+    text-align: center;
+}
+
+.home-page-map .adr a:hover{
+    font-weight: bold;
+}
+
+/************ End Home Page Map **********/
+
+/************ Begin Mail List Signup **********/
+
+#mailing-list {
+    background-color: #000;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    border-top: 1px solid #fff;
+}
+
+#mailing-list h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #ed1c24;;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 15px 30px 15px;
+    margin: 0px 0px 0px 0px;
+}
+
+.subscribe-button {
+    color: #fff;
+    text-shadow: -2px 2px #821216;
+    font-family: 'Oswald';
+    background-color: #ed1c24;
+    background-image: linear-gradient(180deg, #e6676c, #ff000a);
+    box-shadow: inset 0 0 0 1px #821216;
+    border: none;
+    border-radius: 4px;
+    padding: 4px !important;
+    width: 100px;
+}
+
+.subscribe-button:hover {
+    box-shadow: inset 0 0 0 1px #882428,0 5px 15px #4e1d1f;
+}
+    
+
+/*Sign Up Form*/
+
+#mce-EMAIL, #sendy-email {
+    font-size: 14px;
+    padding: 10px;
+    width: 500px;
+    max-width: 90%;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+}
+
+#sendy-email {
+    font-size: 14px;
+    padding: 10px;
+    width: 500px;
+    max-width: 90%;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+}
+
+
+
+.clear {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+#mc_embed_signup_scroll .email, #sendy_embed_signup_scroll .email {
+    text-align: center;
+}
+
+#sendy_embed_signup_scroll .email {
+    text-align: center;
+}
+
+/************ End Mail List Signup **********/
+
+/************ Begin Footer **********/
+
+footer, footer a {
+    color: white;
+}
+
+footer {
+    border-top: 5px solid #ed1c24;
+    background-color: #333;
+    padding: 24px;
+    font-size: 16px;
+    background: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/escape-experience-maze-repeat-gradient-compressor.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: auto auto;
+    font-family: 'Oswald';
+}
+
+footer .column h4 {
+    border-bottom: 2px solid #ed1c24;
+    padding: 10px 6px 10px 6px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    background: rgba(0,0,0,0.50);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer .column ul li {
+    margin-bottom: 6px;
+}
+
+footer li {
+    padding-left: 10px;
+}
+.footer-text {
+    padding-left: 25px;
+}
+
+.footer-text-link:hover {
+    color: #ed1c24;
+}
+
+
+/************ End Footer **********/
+
+
+
+
+
+/************ Begin Game Page Template**********/
+
+.title-image-page {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.title-image-page img {
+    max-width: 100%;
+}
+
+#game-details {
+    background: #000;
+    color: #fff;
+    border-bottom: 1px solid #ed1c24;
+    border-top: 1px solid #e6e6e6;
+}
+
+.game-details-wrapper {
+    margin: 0 auto;
+    max-width: 1250px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+
+#game-details ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#game-details ul li {
+    display: inline-block;
+    padding: 10px 4%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#game-details ul li span {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#game-details ul li p {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-family: 'MTI Digital W00';
+    color: #ed1c24;
+}
+
+.quick-game-description-bg {
+    background: linear-gradient(rgba(255,255,255,.35), rgb(255, 255, 255)), url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/maze-pattern-white.png);
+}
+
+.quick-game-description {
+    margin: 0px auto 0px auto;
+    display: block;
+    max-width: 800px;
+    font-family: 'Karla', sans-serif !important;
+    font-size: 21px;
+    color: #000;
+}
+
+@media only screen and (max-width: 450px) {
+    .quick-game-description h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .quick-game-description {
+        font-size: 18px;
+    }
+}
+
+.quick-game-description-padding {
+    padding: 30px 20px 30px 20px;
+}
+
+
+
+.game-details-container {
+    max-width: 1128px;
+    margin: 0 auto 30px auto;
+    padding: 0px 20px 30px 20px;
+}
+
+
+hr.style7 {
+    width: 90%;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+
+.quick-game-description h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+.long-game-description {
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+    display: block;
+    max-width: 800px;
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    color: #000;
+}
+
+.long-game-description h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.long-game-description a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #ed1c24;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: 'Oswald';
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    background-image: linear-gradient(180deg, #e6676c, #ff000a);
+    box-shadow: inset 0 0 0 1px #821216;
+    border: none;
+    text-shadow: -2px 2px #821216;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    max-width: 125px;
+    margin: 5px auto 15px auto;
+}
+
+@media only screen and (min-width: 992px) {
+    .backstory-mobile {
+        display: none;
+    }
+    .backstory-desktop {
+        display: block !important;
+    }
+}
+
+.long-game-description a:hover {
+    box-shadow: inset 0 0 0 1px #882428,0 5px 15px #4e1d1f;
+    color: #fff;
+}
+
+.long-game-description a:focus {
+    text-decoration: none;
+}
+
+.backstory-desktop {
+        display: none;
+    }
+
+.experience-left-side {
+    margin: 0 auto;
+    padding: 0px 0 30px 0;
+    display: block;
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 992px) {
+    .experience-left-side {
+        padding-right: 50px;
+    }
+    
+    .experience-left-side h3 {
+        text-align: left;
+    }
+}
+
+.experience-right-side {
+    margin: 0 auto;
+    padding: 0px 0 30px 0;
+    display: block;
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 992px) {
+    .experience-right-side {
+        padding-left: 50px;
+    }
+    
+    .experience-right-side h3 {
+        text-align: left !important;
+    }
+}
+
+
+
+.experience-right-side h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+/*Progress Bar Area*/
+
+.toolkit {
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    display: block;
+    max-width: 800px;
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    color: #000;
+}
+
+.toolkit h3 {
+    //text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.progress-area {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.progress-bar {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 5px;
+    font-family: 'Karla', sans-serif !important;
+}
+
+/* Image Slider */
+
+.experience-pics {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.slider-container {
+    //max-width: 400px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.slider-container div {
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    display: none;
+}
+.slider-container img {
+    width: 100%;
+    height: auto;
+}
+
+/*   */
+
+.book-game {
+    background: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/escape-experience-maze-repeat-gradient-compressor.png);
+    color: #fff;
+    border-top: 1px solid #ed1c24;
+}
+
+.book-game-wrapper {
+    margin: 0 auto;
+    max-width: 1250px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+
+.book-game-button {
+    padding: 40px 30px 40px 30px;
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/************ End Game Page Template**********/
+
+/************ Begin C-Block Page **********/
+
+
+.c-block-page-overlay {
+    background: rgba(0,0,0,.55);
+    height: 100%;
+}
+
+.c-block-page-cover {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/promo-code-collage-wide.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+}
+
+.c-block-page-title {
+    text-align: center;
+    padding-top: 150px;
+}
+
+@media only screen and (max-width: 705px) {
+  .c-block-page-cover {
+      height: auto !important;
+  }
+
+  .c-block-page-title {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+.c-block-page-cover {
+    background-size: auto 100%;
+}
+
+}
+
+/************ End C-Block Page **********/
+
+
+/************ Begin The Inheritance Page **********/
+
+.the-inheritance-page-cover {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/inheritance-wormhole-500.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+}
+
+.the-inheritance-page-title {
+    text-align: center;
+    padding-top: 150px;
+}
+
+@media only screen and (max-width: 705px) {
+  .the-inheritance-page-cover {
+      height: auto !important;
+  }
+
+  .the-inheritance-page-title {
+    padding-top: 22%;
+    padding-bottom: 17%;
+  }
+
+.the-inheritance-page-cover {
+    background-size: auto 100%;
+}
+
+}
+
+/************ End The Inheritance Page **********/
+
+/************ Begin Vaccine Page **********/
+
+.vaccine-page-cover {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/vaccine_cover-compressor.png) !important;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+}
+
+.vaccine-page-title {
+    text-align: center;
+    padding-top: 150px;
+}
+
+@media only screen and (max-width: 705px) {
+  .vaccine-page-cover {
+      height: auto !important;
+  }
+
+  .vaccine-page-title {
+    padding-top: 22%;
+    padding-bottom: 17%;
+  }
+
+.vaccine-page-cover {
+    background-size: auto 100%;
+}
+
+}
+
+/************ End Vaccine Page **********/
+
+
+/************ Begin Cosmos Page **********/
+
+
+.cosmos-page-overlay {
+    background: rgba(0,0,0,.55);
+    height: 100%;
+}
+
+.cosmos-page-cover {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/earth-bg-2.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+}
+
+.cosmos-page-title {
+    text-align: center;
+    padding-top: 150px;
+}
+
+@media only screen and (max-width: 705px) {
+  .cosmos-page-cover {
+      height: auto !important;
+  }
+
+  .cosmos-page-title {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+.cosmos-page-cover {
+    background-size: auto 100%;
+}
+
+}
+
+.quick-game-description h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+    .quick-game-description h1 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+/************ End Cosmos Page **********/
+
+
+
+/************ Begin Team Building Page **********/
+
+
+
+
+
+.teambuilding-page-overlay {
+    height: 100%;
+}
+
+.teambuilding-image-text {
+    margin: 0 auto;
+    max-width: 910px;
+}
+
+
+
+.teambuilding-usedby-bg {
+    background: #f0f0f0;
+    border-bottom: 1px solid #ed1c24;
+    border-top: 1px solid #ed1c24;
+}
+
+.teambuilding-usedby {
+    font-family: 'Karla', sans-serif !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #000;
+    padding-top: 20px;
+}
+
+.teambuilding-trusted-container {
+    max-width: 748px;
+    margin: 0 auto;
+}
+
+
+
+
+.trusted {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 850px;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.trusted ul {
+    padding: 0;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.trusted ul li {
+    max-width: 125px;
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.trusted img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.hca-custom {
+    width: 125px;
+}
+
+.hca-custom img {
+    max-height: 25px;
+    margin: 0 auto;
+}
+
+@media (max-width: 400px) {
+    
+    .trusted ul li {
+        max-width: 90px;
+    }
+    
+    .hca-custom img {
+        max-height: 17px !important;
+    }
+}
+
+
+
+.teambuilding-gradient {
+    background: linear-gradient(to bottom, #f0f0f0, white);
+}
+
+
+
+
+
+
+.teambuilding-about {
+    border-bottom: 1px solid #ed1c24;
+}
+
+
+
+
+.benefits {
+}
+
+.benefit-desc {
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    
+    .benefit-desc {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+}
+
+.benefit-desc-titles {
+    position: relative;
+}
+
+.benefit-desc-titles h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.benefit-1-mobile, .benefit-2-mobile, .benefit-3-mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    
+    .benefit-1-mobile, .benefit-2-mobile, .benefit-3-mobile {
+        display: block;
+    }
+    .benefit-1, .benefit-2, .benefit-3 {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 410px) {
+    
+    .benefit-2-mobile {
+        display: none;
+    }
+    .benefit-2 {
+        display: block;
+    }
+    
+}
+
+
+
+
+/************ End Team Building Page **********/
+
+
+/************ Begin Contact Page **********/
+
+	  
+#map { 
+    height: 400px;
+}
+
+
+.contact-sub-title {
+    width: 100%;
+    background-color: #ed1c24;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #666666;
+    padding-top: 67px;
+}
+
+.contact-sub-title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+
+
+
+
+.contact-details {
+    width: 100%;
+    margin: 0 auto;
+    background: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/escape-experience-maze-repeat-gradient-compressor.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: auto auto;
+    height: 400px;
+}
+
+@media (min-width: 797px) {
+    .contact-details {
+        height: 450px;
+    }
+}
+
+@media (max-width: 796px) {
+    .contact-details {
+        height: 860px;
+    }
+}
+
+.contact-details-sub {
+    width: 85%;
+    margin: 0 auto;
+    border-bottom: 2px solid #ccc;
+}
+
+.contact-details-sub h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #ccc
+}
+
+.contact-info {
+    line-height: 22px;
+    display: inline-block;
+    color: #ccc;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-details-left {
+        float: left;
+    }
+
+@media (min-width: 797px) {
+    .contact-details-left {
+        width: 50%;
+    }
+}
+
+@media (max-width: 796px) {
+    .contact-details-left {
+        width: 100%;
+    }
+}
+
+.contact-details-left ul {
+    list-style-type: none;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+.contact-details-left ul li {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.contact-info-email {
+    text-transform: lowercase;
+}
+
+.driving-directions {
+    text-align: center;
+    padding-top: 58px;
+}
+
+.driving-directions-link {
+    width: 185.75px;
+    height: 55px !important;
+    line-height: 55px !important;
+    color: #ccc !important;
+    background-color: none !important;
+    font-weight: normal !important;
+    border: 2px solid #ccc;
+    list-style: none;
+    padding: 0 17px !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(237,28,36,.6);
+}
+
+.driving-directions-link:hover {
+    color: #000 !important;
+    background-color: #ed1c24 !important;
+    border: 2px solid #ed1c24;
+    text-decoration: none;
+}
+
+.contact-details-social a {
+    height: 20px;
+    line-height: 20px;
+    color: #ccc;
+    padding: 15px 15px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.contact-details-social a:hover {
+    color: #ed1c24;
+}
+
+
+
+
+
+.contact-details-right {
+    float: left;
+}
+
+@media (min-width: 797px) {
+    .contact-details-right {
+        width: 50%;
+    }
+}
+
+@media (max-width: 796px) {
+    .contact-details-right {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/************ End Contact Page **********/
+
+/************ Begin FAQ Page **********/
+
+.faq-bg {
+    background: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/escape-experience-maze-repeat-gradient-compressor.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-color: #030303;
+}
+
+
+.panel-group {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.panel-title {
+    font-family: 'Oswald', sans-serif;
+}
+
+.panel-body {
+    font-family: 'Karla', sans-serif !important;
+}
+
+.faq-title a:hover {
+    color: #ed1c24;
+    text-decoration: none;
+}
+
+.faq-title a:focus {
+    color: #ed1c24;
+    text-decoration: none;
+}
+
+.more-questions h2 {
+    color: #ed1c24;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.more-questions p {
+    color: #ddd;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+
+.more-questions p a {
+    color: #ed1c24;
+}
+
+.more-questions p a:hover {
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.section-title {
+    color: #ed1c24;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/************ END FAQ Page **********/
+
+/************ Begin Booking Page **********/
+
+
+.booking-bg {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/escape-experience-maze-repeat-gradient-compressor.png);
+    height: 100%;
+    width: 100%;
+    background-repeat-y: no-repeat;
+    background-color: #000000;
+}
+
+.booking-bg-overlay {
+    background: rgba(0, 0, 0, 0.60);
+    height: 100%;
+}
+
+.booking-section {
+    padding-top: 40px;
+}
+
+.booking-tag {
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.booking-tag h2 {
+    color: #ed1c24;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+.booking-tag p {
+    color: #ddd;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.booking-instructions {
+    padding-top: 20px;
+    max-width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.booking-instructions p {
+    color: #ddd;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+
+
+
+/************ END Booking Page **********/
+
+
+/************ Begin Bachelorette Party Page **********/
+
+.teambuilding-banner {
+    width: 100%;
+    background-color: #ed1c24;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #666666;
+    margin-top: 67px;
+}
+
+.teambuilding-banner h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #000000;
+}
+
+.teambuilding-banner h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.bach-party-cover {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/bach-party-temp.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.bach-party-overlay {
+    background: rgba(0,0,0,.75);
+    height: 100%;
+}
+
+
+.bach-party {
+    height: 100%;
+    width: 100%;
+    background-color: #000!important;
+    background: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/bach-party-bg.png) top repeat-x;
+    background-size: auto auto;
+    margin-bottom: 0!important;
+}
+
+.bach-party-text {
+	margin:0 auto;
+	width:500px;
+	height:400px;
+}
+
+@media (max-width: 554px) {
+    
+    .bach-party-cover {
+	height: 350px;
+    }
+
+    .bach-party-text {
+	width: 100%;
+    }
+
+    .bach-party-text .block {
+        font-size: 35px;
+    }  
+
+    .hand-top {
+        padding-top: 25px !important;
+    }
+
+    .bachelorette-map {
+        display: none;
+    }
+}
+
+.hand {
+    font-family: 'Yellowtail', cursive;
+    color: #ed1c24;
+    text-align: center;
+    font-size: 45px;
+}
+
+.hand-top {
+    padding-top: 50px;
+}
+
+.block {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+
+.bach-party-bg {
+    height: 100%;
+    width: 100%;
+    background-color: #E1F4F7!important;
+    background: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/bach-party-bg.png) top repeat-x;
+    background-size: auto auto;
+    margin-bottom: 0!important;
+}
+
+.bach-party-content {
+    max-width: 1200px;
+    padding: 30px 15px 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bach-party-why h4 {
+    font-family: 'Yellowtail', cursive;
+    color: #ed1c24;
+    font-size: 30px;
+    margin: 0 0 5px 0;
+}
+
+.bach-party-why p {
+    font-family: Karla,sans-serif!important;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.bach-party-content-2 {
+    padding: 30px 30px 0 30px;
+}
+
+.testimonial blockquote {
+    font-family: "museo-slab",Georgia,"Times New Roman",Times,serif;
+    border-left: 0;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+.testimonial p {
+    text-align: center;
+    display: inline-block;
+    font-family: "proxima-nova-n6","proxima-nova","Proxima Nova","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px 0 20px 0;
+}
+
+
+.bach-party-location {
+    margin: 0px auto 0px auto;
+    max-width: 1200px;
+    display: block;
+    padding: 0px 15px 30px 15px;
+    color: #000;
+}
+
+.bach-party-location h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 15px 0 15px;
+    margin-bottom: 20px;
+}
+
+.bach-party-location p {
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    padding: 0 15px 0 15px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/************ END Bachelorette Party Page **********/
+
+/************ BEGIN Promo Code Page **********/
+
+
+.promo-code-cover {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/promo-code-collage-wide.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.promo-review-section {
+    padding: 30px 30px 30px 30px;
+    background-color: #dcdcdc;
+}
+
+.promo-review-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.promo-reviews {
+    margin-top: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.promo-reviews p {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Karla', sans-serif !important;
+    color: #000 !important;
+    margin-bottom: 0px;
+}
+
+.testimonial-person {
+    text-align: center;
+    display: inline-block;
+    font-family: "proxima-nova-n6","proxima-nova","Proxima Nova","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #555;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px 0 0px 0;
+}
+
+.promo-reviews .testimonial-tripadvisor {
+    color: #589442 !important;
+    text-align: center;
+    display: inline-block;
+    font-family: "proxima-nova-n6","proxima-nova","Proxima Nova","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px 0 0px 0;
+    font-weight: bold;
+}
+
+.promo-reviews .testimonial-facebook {
+    color: #3b5998 !important;
+    text-align: center;
+    display: inline-block;
+    font-family: "proxima-nova-n6","proxima-nova","Proxima Nova","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px 0 0px 0;
+    font-weight: bold;
+}
+
+.promo-reviews .testimonial-yelp {
+    color: #af0606 !important;
+    text-align: center;
+    display: inline-block;
+    font-family: "proxima-nova-n6","proxima-nova","Proxima Nova","Helvetica Neue",Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px 0 0px 0;
+    font-weight: bold;
+}
+
+.promo-reviews p a:hover {
+    color: #ed1c24;
+}
+
+.promo-code-book-now-top {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ed1c24;
+}
+
+.promo-code-text {
+	margin:0 auto;
+	width:500px;
+	height:400px;
+}
+
+@media only screen and (max-width: 554px) {
+ 
+  .promo-code-text {
+    padding-top: 10%;
+    padding-bottom: 20%;
+    height: auto;
+    width: 100%;
+  }
+
+  .promo-code-text .block {
+    font-size: 35px;
+  }
+
+  .promo-code-cover {
+    background-size: auto 100%;
+    height: auto;
+  }
+
+}
+
+/************ END Promo Code Page **********/
+
+/************ BEGIN Landing Pages**********/
+
+.lp-page-cover {
+    background-image: url(/web/20180825102909im_/http://heavenlyvalettrash.com/css/backgrounds/escape-game-nashville.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+    margin-top: 108px;
+}
+
+@media (max-width: 705px) {
+    .lp-page-cover {
+        height: auto !important;
+        background-size: auto 100%;
+    }
+}
+
+@media (max-width: 890px) {
+    .lp-page-cover {
+        margin-top: 40px;
+    }
+}
+
+.lp-overlay {
+    background: rgba(0,0,0,.75);
+    height: 100%;
+}
+
+
+.lp-logo {
+    margin-top: 70px;
+}
+
+.lp-logo img {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 400px;
+}
+
+@media (max-width: 465px) {
+    .lp-logo img {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 891px) {
+    .lp-logo {
+        margin-top: 70px !important;
+    }
+}
+
+.lp-image-text {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.lp-image-text h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: #FFFFFF;
+    padding-top: 70px;
+    padding-bottom:70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 740px) {
+    .lp-image-text h1 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 415px) {
+    .lp-image-text h1 {
+        font-size: 23px;
+    }
+}
+
+.lp-book-now-row {
+    background-color: #f2f4f6;
+    border-top: 3px solid #ed1c24;
+    border-bottom: 1px solid #000;
+}
+
+.lp-book-now-button {
+    margin: 0px auto 0px auto;
+    padding: 20px 30px 20px 30px;
+    display: block;
+    max-width: 300px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lp-book-now-button a {
+    display: inline-block;
+    width: 75%;
+    padding: 4px;
+    color: #fff;
+    background-color: #ed1c24;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    text-shadow: -2px 2px #821216;
+    background-image: linear-gradient(180deg, #e6676c, #ff000a);
+    box-shadow: inset 0 0 0 1px #821216;
+    border: none;
+}
+
+.lp-book-now-button a:hover {
+    box-shadow: inset 0 0 0 1px #882428,0 5px 15px #4e1d1f;
+    color: #fff;
+}
+
+.lp-escape-games-container {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.lp-escape-games {
+    padding-bottom: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.lp-escape-games img {
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-color: #000;
+}
+
+.lp-escape-games img:hover {
+    opacity:0.75;
+}
+
+
+
+
+
+
+
+
+
+/** LP Review Section **/
+
+.lp-reviews-wrap {
+    padding: 40px 0;
+    border-top: 1px solid #000;
+    background: #F2F4F6;
+}
+
+.lp-reviews {
+    font-size: 16px;
+    color: #2d3134;
+    padding: 0;
+    position: relative;
+}
+
+.lp-reviews-inner-wrap {
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 94%;
+}
+
+.lp-reviews-inner-wrap h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.lp-reviews-list {
+    list-style: none inside;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.lp-reviews-list-wrap {
+    margin: 0 auto;
+}
+
+.lp-reviews-list li:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.lp-reviews-content {
+    margin: 0 5% 35px 0;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 29%;
+}
+
+@media (max-width: 760px) {
+    .lp-reviews-content {
+        margin-right: 0;
+        width: 100%;
+        display: block;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    
+    .lp-reviews-list li:nth-child(3n+3) {
+        margin-right: auto;
+    }
+    
+    .lp-reviews-footer {
+        margin-bottom: 20px !important;
+    }
+}
+
+.lp-reviews-cont {
+    font-size: 16px;
+    line-height: 1.7;
+    position: relative;
+    padding: 40px 40px;
+    background: #fff;
+    font-weight: 400;
+    display: table-cell;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.07);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.07);
+    color: #4F5E6D;
+    border-radius: 3px;
+    border: 1px solid #d9dce0;
+}
+
+.lp-reviews-text {
+    font-size: 16px;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    min-height: 240px;
+}
+
+.lp-reviews-footer {
+    margin: 20px auto 0;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+
+.lp-reviews-footer img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.lp-reviews-footer img:hover {
+    opacity:0.75;
+}
+
+.lp-reviews-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    color: #123;
+    font-style: normal;
+}
+
+.lp-reviews-footer-tripadvisor {
+    height: 25px;
+}
+
+.lp-reviews-footer-facebook {
+    height: 20px;
+}
+
+.lp-reviews-footer-yelp {
+    height: 30px;
+}
+
+/** LP Contact Form **/
+
+.lp-contact-us {
+    margin: 0px auto 0px auto;
+    max-width: 90%;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    color: #000;
+}
+
+.lp-contact-us h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 15px 0 15px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-top: 1px solid #dddddd;
+}
+
+.lp-contact-us p {
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    padding: 0 0px 0 0px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.lp-contact-form {
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.lp-form {
+    width: 90% !important;
+}
+
+.lp-form-control {
+    background: #fff !important;
+    color: #505050 !important;
+    border: 1px solid #505050;
+}
+
+.lp-send-message {
+    width: 185.75px;
+    height: 55px !important;
+    line-height: 55px !important;
+    color: #ccc;
+    background-color: transparent!important;
+    font-weight: normal !important;
+    border: 2px solid #ccc;
+    list-style: none;
+    padding: 0 17px !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(237,28,36,.6);
+    border-radius: 0px;
+    border: 1px solid #505050 !important;
+    color: #000 !important;
+}
+
+.lp-send-message:hover {
+    color: #000 !important;
+    background-color: #ed1c24 !important;
+    border: 2px solid #ed1c24;
+    text-decoration: none;
+}
+
+/************ END Landing Pages **********/
+
+.escape10-text {
+    color: #ed1c24;
+}
+/*
+     FILE ARCHIVED ON 10:29:09 Aug 25, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:49:52 Apr 16, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.159
+  LoadShardBlock: 515.389 (3)
+  RedisCDXSource: 1743.04
+  exclusion.robots: 0.169
+  captures_list: 2270.7
+  PetaboxLoader3.resolve: 339.104 (3)
+  esindex: 0.008
+  CDXLines.iter: 9.911 (3)
+  load_resource: 377.584
+  PetaboxLoader3.datanode: 498.389 (4)
+*/
