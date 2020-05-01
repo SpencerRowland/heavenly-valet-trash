@@ -35,10 +35,10 @@ h4 {
 nav {
     background: #fff;
     box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.75);
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
     width: 100%;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 nav > div {
@@ -80,6 +80,12 @@ nav img {
     }
 }
 
+main {
+    background: linear-gradient(to bottom, #e1f4fb 20%, #e6edf5, #c6d6eb);
+    
+    padding: 0 15px;
+}
+
 section.hero {
     align-items: center;
     background-image: url(/css/backgrounds/clouds-cover-1800-500.jpg);
@@ -90,7 +96,14 @@ section.hero {
     flex-direction: column;
     height: 500px;
     justify-content: flex-start;
-    margin-top: 70px;
+    margin: 0 -15px;
+}
+
+@media (max-width: 540px) {
+    section.hero {
+        height: auto;
+        margin-bottom: 100px;
+    }
 }
 
 section.hero h1 {
@@ -100,8 +113,15 @@ section.hero h1 {
     line-height: 1.21;
     margin-bottom: 20px;
     max-width: 910px;
-    padding-top: 100px;
+    padding: 100px 15px 0;
     text-align: center;
+}
+
+@media (max-width: 540px) {
+    section.hero h1 {
+        font-size: 23px;
+        padding-top: 40px;
+    }
 }
 
 section.hero h1 span {
@@ -151,6 +171,13 @@ section.how ul {
     justify-content: center;
 }
 
+@media (max-width: 540px) {
+    section.how ul {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 section.how ul {
     display: flex;
 }
@@ -193,11 +220,21 @@ section.how ul li p {
 .benefits__lists__item {
     background: #fff;
     border-radius: 4px;
-    box-shadow: 0 10px 30px 0 rgba(25, 79, 155, 0.37);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.06);
     margin: 0 15px;
     max-width: 400px;
     padding: 40px;
     width: 100%;
+}
+
+@media (max-width: 840px) {
+    .benefits__lists {
+        align-items: center;
+        flex-direction: column;
+    }
+    .benefits__lists__item:first-child {
+        margin: 0 0 30px;
+    }
 }
 
 .benefits__lists__item h5 {
@@ -231,6 +268,16 @@ section.how ul li p {
 
 .tweets__lists > * {
     margin: 0 15px;
+}
+
+@media (max-width: 840px) {
+    .tweets__lists {
+        align-items: center;
+        flex-direction: column;
+    }
+    .tweets__lists > *:first-child {
+        margin: 0 0 30px;
+    }
 }
 
 .contact-us {
