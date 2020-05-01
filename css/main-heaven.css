@@ -1,29 +1,6 @@
 /************ Begin Font Import*************************************************************************/
 
-@import url(https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:400,500,700|Lato:400,300,400italic,700italic,700|Bangers|Ultra|Karla:400,700|Black+Ops+One|Bigelow+Rules|Faster+One|Trade+Winds|Oswald|Just+Another+Hand|Yellowtail|Montserrat:300,400,600,800);
-/*
-font usage: font-family: 'Roboto', sans-serif;
-font usage: font-family: 'Lato', sans-serif;
-font-family: 'Bangers', cursive;
-font-family: 'Ultra', serif;
-font-family: 'Karla', sans-serif;
-font-family: 'Black Ops One', cursive;
-font-family: 'Alex Brush', cursive;
-font-family: 'Bigelow Rules', cursive;
-font-family: 'Faster One', cursive;
-font-family: 'Trade Winds', cursive;
-font-family: 'Oswald', sans-serif;
-font-family: 'Just Another Hand', cursive;
-font-family: 'Yellowtail', cursive;
-*/
-/*
-@font-face {
-font-family: 'digital_dream_narrowregular'; 
-src: url(/css/fonts/DIGITALDREAMNARROW-webfont.ttf);
-font-weight: normal;
-}
-*/
-/************ End Font Import*************************************************************************/
+/* @import url(https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:400,500,700|Lato:400,300,400italic,700italic,700|Bangers|Ultra|Karla:400,700|Black+Ops+One|Bigelow+Rules|Faster+One|Trade+Winds|Oswald|Just+Another+Hand|Yellowtail|Montserrat:300,400,600,800); */
 
 .contact-lp-bg-color {
     background: #e1f4fb;
